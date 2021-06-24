@@ -1,0 +1,145 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 140%;
+    letter-spacing: 1px
+}
+
+.no-gutters {
+    margin-right: 10;
+    margin-left: 10;
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .left img{
+        width: 100%;
+    }
+    .right{
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .left img{
+       width: 100% !important;
+    }
+    .right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        display: block !important;
+    }
+    .left{
+        width: 100%;
+    }
+    .left img{
+        max-width: 100% !important;
+        height: inherit;
+    }
+    .right {
+        display: none;
+    }
+    .footer_widget_col {
+        width: 100% !important;
+    }
+    .col-md-4 {
+        max-width: 100%;
+    }
+    .footer_social{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .email{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 576px) { 
+    .left{
+        width: 100% !important;
+    }
+    .right {
+        display: none;
+    }
+    .footer_widget_col {
+        width: 100%;
+    }
+    .left img{
+        width: 100% !important;
+    }
+
+ }
+.container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.navbar{
+    background-color: rgba(82,64,120, 0.9) !important;
+}
+.navbar li a{
+    color: white !important;
+}
+.navbar li a:hover{
+    color: black!important;
+}
+.left p{
+    margin-top: 20px;
+}
+.right{
+    padding-left: 100px;
+}
+.box-1 ul{
+    padding-left: 0px;
+}
+.box-1 ul li{
+    list-style: none;
+    
+   
+}
+.box-1 ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.box-1 ul li a:hover{
+    color:blueviolet;
+}
+.box-2 .content{
+    font-size: 14px;
+}
+.footer_widget_col {
+    /* padding: 20px; */
+    padding-bottom: 20px;
+}
+
+.footer_social {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer_social a {
+    margin-right: 20px;
+}
+.email{
+    width: 78%;
+}
+.footer_widgets_cont{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer_social img{
+    width: 20px;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}

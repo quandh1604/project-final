@@ -1,0 +1,57 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 140%;
+    letter-spacing: 1px
+}
+
+.no-gutters {
+    margin-right: 20;
+    margin-left: 20;
+}
+
+img{
+    width: 95%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colums .nameModel{
+    color: black;
+    text-decoration: none;
+}
+.colums{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.colums a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sb_price{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 1200px){
+  
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+@media only screen and (max-width: 576px) { 
+    
+
+ }
