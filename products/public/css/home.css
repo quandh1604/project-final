@@ -153,7 +153,6 @@ form{
 .shopper-content__des img:hover{
     opacity: 0.8;
     filter: alpha(opacity=50);
-    transition: .5s ease;
 }
 .home-small__box .sub-title{
     background-color: #fff;
@@ -178,36 +177,3 @@ form{
 .home-small__box .sub-price{
     text-align: center;
 }
-/* .product__viewBtn {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
-  } */
-    .home-small__box{
-        position: relative;
-        width: 100%;
-        max-width: 300px;
-      }
-      .image-overlay{
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-  .overlay{
-    position: absolute;
-    bottom: 90px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .home-small__box:hover .overlay{
-      opacity: 1;
-  }
