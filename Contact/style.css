@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    src: url(/public/font/roboto-condensed.light.ttf);
+    font-family: "Roboto Condensed";
+}
+body{
+    font-family: "Roboto Condensed";
+}
 body {
     font-size: 14px;
     font-family: 'Roboto Condensed', sans-serif;

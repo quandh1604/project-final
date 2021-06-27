@@ -3,8 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    src: url(/public/font/roboto-condensed.light.ttf);
+    font-family: "Roboto Condensed";
+}
 body{
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-family: "Roboto Condensed";
 }
 .header{
     background-color: #fff;
@@ -109,7 +113,7 @@ form{
 }
 .my-account__input-form h2{
     font-size: 1.5em;
-    font-family: Tahoma;
+    /* font-family: Tahoma; */
     margin-bottom: 30px;
 }
 .login-form label{
@@ -140,7 +144,7 @@ form{
     border-radius: 5%;
     background-color: #ebe9eb;
     margin-top: 10px;
-    font-family: tahoma;
+    /* font-family: tahoma; */
     color: grey;
     margin-right: 10px;
 }
@@ -153,7 +157,7 @@ form{
 }
 .login-form .lost-password a{
     text-decoration: none;
-    font-family: Tahoma;
+    /* font-family: Tahoma; */
     font-size: 16px;
     color: #515151;
 }

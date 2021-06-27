@@ -2,6 +2,9 @@
     src: url(/public/font/roboto-condensed.light.ttf);
     font-family: "Roboto Condensed";
 }
+body{
+    font-family: "Roboto Condensed";
+}
 *{
     margin: 0;
     padding: 0;
