@@ -1,3 +1,16 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(/public/font/roboto-condensed.light.ttf);
+    font-family: "Roboto Condensed";
+}
+body{
+    font-family: "Roboto Condensed";
+}
 .body {
     padding: 0;
     margin: 0;
@@ -8,14 +21,6 @@
     color: #333;
     line-height: 140%;
     letter-spacing: 1px
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
 /* @media screen and (max-width:1920px) {
     .container {
