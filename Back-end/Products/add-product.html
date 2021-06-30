@@ -77,12 +77,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="" class="nav-link active">
+                  <a href="/Back-end/Products/list-product.html" class="nav-link active">
                     <p>Danh sách sản phẩm</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link active">
+                  <a href="/Back-end/Products/add-product.html" class="nav-link active">
                     <p>Thêm sản phẩm</p>
                   </a>
                 </li>
@@ -127,17 +127,21 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
       <div class="container">
+        <div class="products" id="products"></div>
           <div class="form-group">
-              <div class="add-product">
+              <form class="add-product" id="add-product">
                   <label for="">Tên sản phẩm</label>
-                  <input type="text" class="form-control" placeholder="Tên sản phẩm">
+                  <input type="text" class="form-control" placeholder="Tên sản phẩm" name="name">
                   <label for="">Ảnh sản phẩm</label>
-                  <input type="file" value="" class="form-control">
+                  <input type="file" value="" class="form-control" name="file">
+                  <label for="">Giá</label>
+                  <input type="text" class="form-control" placeholder="" name="price">
                   <label for="">Tin ngắn</label>
-                  <input type="text" class="form-control">
+                  <input type="text" class="form-control" name="shortdes">
                   <label for="">Chi tiết</label>
-                  <textarea name="" id="" cols="157" rows="10"></textarea>
-              </div>
+                  <textarea name="des" id="" cols="157" rows="10"></textarea>
+                  <button class="btn btn-primary">Submit</button>
+              </form>
           </div>
       </div>
   </div>
@@ -157,7 +161,8 @@
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
-
+<!-- call api -->
+<script src="/Back-end/app.js"></script>
 <!-- jQuery -->
 <script src="/Back-end/plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
@@ -169,27 +174,27 @@
 <!-- Bootstrap 4 -->
 <script src="/Back-end/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="/Back-end/plugins/chart.js/Chart.min.js"></script>
+<!-- <script src="/Back-end/plugins/chart.js/Chart.min.js"></script> -->
 <!-- Sparkline -->
-<script src="/Back-end/plugins/sparklines/sparkline.js"></script>
+<!-- <script src="/Back-end/plugins/sparklines/sparkline.js"></script> -->
 <!-- JQVMap -->
-<script src="/Back-end/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="/Back-end/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- <script src="/Back-end/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="/Back-end/plugins/jqvmap/maps/jquery.vmap.usa.js"></script> -->
 <!-- jQuery Knob Chart -->
-<script src="/Back-end/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- <script src="/Back-end/plugins/jquery-knob/jquery.knob.min.js"></script> -->
 <!-- daterangepicker -->
-<script src="/Back-end/plugins/moment/moment.min.js"></script>
-<script src="/Back-end/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- <script src="/Back-end/plugins/moment/moment.min.js"></script> -->
+<!-- <script src="/Back-end/plugins/daterangepicker/daterangepicker.js"></script> -->
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="/Back-end/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Summernote -->
 <script src="/Back-end/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="/Back-end/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- <script src="/Back-end/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script> -->
 <!-- AdminLTE App -->
-<script src="/Back-end/dist/js/adminlte.js"></script>
+<script src="/Back-end/dist/js/adminlte.js"></script> 
 <!-- AdminLTE for demo purposes -->
-<script src="/Back-end/dist/js/demo.js"></script>
+<!-- <script src="/Back-end/dist/js/demo.js"></script> -->
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="/Back-end/dist/js/pages/dashboard.js"></script>
 </body>
