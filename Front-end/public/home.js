@@ -11,10 +11,10 @@ fetch('http://localhost:3000/products')
     //     <span class="sb_price">$${data[i].price}</span>
     // </div>`;
 
-
+            console.log(data[i])
           product.innerHTML+=`<div class="col-md-4 col-sm-6 col-12 images">
           <div class="home-small__box">
-              <a href="/Front-end/products/product-details.html">
+              <a href="/Front-end/products/product-details.html?id=${data[i].id}">
               <img class="image-overlay" src="${data[i].images}" alt="">
               <div class="overlay">
                   view details
