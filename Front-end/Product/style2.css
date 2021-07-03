@@ -162,6 +162,82 @@ form{
     top: 9px;
     right: 9px;
 }
+/* .shopper-content{
+    padding-top: 10px;
+} */
+/* .shopper-content__des{padding-top: 0px;} */
+ .images{
+padding-top: 0px;
+}
+.shopper-content__des img:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    transition: .5s ease;
+}
+.overlay{
+    position: absolute;
+    bottom: 119px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .container .shopper-content{
+      padding-top: 0px;
+  }
+  .shopper-content__des img{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.home-small__box{
+    position: relative;
+    width: 100%;
+    max-width: 357px;
+    padding-bottom: 30px;
+  }
+  .image-overlay{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .home-small__box:hover .overlay{
+    opacity: 1;
+}
+  .shopper-content__des img:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    transition: .5s ease;
+}
+.home-small__box .sub-title{
+    background-color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 17px;
+    /* font-family: 'Tahoma'; */
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.home-small__box .sub-title a{
+    text-decoration: none;
+    color: #333;
+}
+.price-product{
+    position: relative;
+}
+.home-small__box .sub-price{
+    text-align: center;
+}
 .g-3{
     margin-top: 120px;
 }
@@ -173,7 +249,6 @@ form{
 
 img{
     width: 95%;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -196,8 +271,15 @@ img{
     display: flex;
     justify-content: center;
 }
-
+@media only screen and (max-width: 767px){
+.container {
+    width: 300px;
+}
+}
 @media only screen and (max-width: 576px) { 
+    .container{
+        width: 300px;
+    }
     .left{
         width: 100% !important;
     }
@@ -205,7 +287,12 @@ img{
         display: none;
     }
     .footer_widget_col {
-        width: 100%;
+        max-width: 300px;
+        
+    }
+    .footer_widgets_cont{
+        display: block !important;
+        width: 300px;
     }
     .left img{
         width: 100% !important;

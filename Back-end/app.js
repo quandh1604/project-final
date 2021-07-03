@@ -27,7 +27,6 @@ fetch('http://localhost:3000/products')
                     <tr>
                         <th scope="col">id</th>
                         <th scope="col">Name</th>
-                        <th scope="col">File</th>
                         <th scope="col">Price</th>
                         <th scope="col">Short Des</th>
                         <th scope="col">Des</th>
@@ -38,7 +37,6 @@ fetch('http://localhost:3000/products')
                     <tr>
                         <th>${pro.id}</th>
                         <td>${pro.name}</td>
-                        <td>${pro.file}</td>
                         <td>${pro.price}</td>
                         <td>${pro.shortdes}</td>
                         <td>${pro.des}</td>

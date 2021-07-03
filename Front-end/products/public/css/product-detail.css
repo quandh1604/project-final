@@ -24,6 +24,7 @@ body{
 .container{
     width: 1180px;
     margin: 0 auto;
+    display: flex;
 }
 .logo-homepage{
     padding: 0px 0;
@@ -146,11 +147,7 @@ form{
     top: 9px;
     right: 9px;
 }
-@media (min-width: 768px) {
-    .image-product{
-        max-width:100%;
-    }
-}
+
 
     .image-product .fa-search{
         position: absolute;
@@ -203,3 +200,53 @@ form{
     margin-right: 6px;
     width: 70px;
 }
+@media only screen and (max-width: 1200px){
+    .container{
+        display: block !important;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .container{
+        display: block !important;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .container{
+        display: block !important;
+        width: 300px;
+        margin: auto;
+    }
+    .image-product{
+        max-width: 100% !important;
+        margin: auto;
+    }
+    .des-product{
+        max-width: 100%;
+        margin: auto;
+    }
+   
+}
+@media only screen and (max-width: 576px) { 
+    .container{
+        display: block !important;
+        width: 300px;
+        margin: auto;
+    }
+    .image-product{
+        max-width: 100%;
+        margin: auto;
+    }
+    .image-product .img{
+        width: 200px;
+    }
+    .des-product{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+
+ }
