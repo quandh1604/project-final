@@ -3,15 +3,7 @@ fetch('http://localhost:3000/products')
   .then(response => response.json())
   .then(data => {
     for(let i = 0; i < data.length ;i++){
-    //     product.innerHTML +=`<div class="colums col-md-4 col-sm-6 col-12">
-    //     <a href="/products/product-details.html">
-    //         <img src="${data[i].images}" alt="">
-    //     </a>
-    //     <a class="nameModel" href="">${data[i].name}</a>
-    //     <span class="sb_price">$${data[i].price}</span>
-    // </div>`;
-
-            console.log(data[i])
+        console.log(data[i])
           product.innerHTML+=`<div class="col-md-4 col-sm-6 col-12 images">
           <div class="home-small__box">
               <a href="/Front-end/products/product-details.html?id=${data[i].id}">

@@ -20,7 +20,6 @@ body{
     z-index: 9999;
 }
 .container{
-    width: 1180px;
     margin: 0 auto;
 }
 .logo-homepage{
@@ -147,7 +146,7 @@ form{
 .main-content{
     margin-top: 140px;
 }
-.main-content__left .content p{
+.left .content p{
     line-height: 25px;
     letter-spacing: 1px;
 }
@@ -169,13 +168,13 @@ form{
     border: 1px solid silver;
     margin-top: 5px;
 }
-.sidebar{
+.right{
     float: right;
     width: 250px !important;
     /* margin-top: 150px; */
     margin-left: 30px;
 }
-.sidebar .sidebox{
+.right .sidebox{
     margin-bottom: 35px;
 }
 .sidebox h3.side-title{
@@ -186,17 +185,32 @@ form{
     border-radius: 4px;
     margin-left: 35px;
 }
-.sidebar .sidebox ul{
+.right .sidebox ul{
     margin-top: 0;
     margin-bottom: 1rem;
 }
-.sidebar .sidebox ul li{
+.right .sidebox ul li{
     text-decoration: none;
     list-style: none;
 }
-.sidebar .sidebox ul li:hover{
+.right .sidebox ul li:hover{
     opacity: 0.9;
 }
+@media only screen and (max-width: 776px) { 
+    .left{
+        width: 100% !important;
+    }
+    .right {
+        display: none;
+    }
+    .footer_widget_col {
+        width: 100%;
+    }
+    .left img{
+        width: 100% !important;
+    }
+
+ }
 @media only screen and (max-width: 576px) { 
     .left{
         width: 100% !important;
@@ -212,6 +226,13 @@ form{
     }
 
  }
+ @media (min-width: 576px){
+    .col-sm-9 {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+ }
+
  .footer{
      margin-top: 50px;
  }

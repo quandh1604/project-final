@@ -112,7 +112,7 @@ body{
     z-index: 9999;
 }
 .container{
-    width: 1180px;
+    /* width: 1180px; */
     margin: 0 auto;
 }
 .logo-homepage{
@@ -251,9 +251,16 @@ form{
 }
 .left p{
     margin-top: 20px;
+    font-size: 16px;
+}
+.left .box{
+    margin-bottom: 40px;
 }
 .right{
     padding-left: 100px;
+}
+h4{
+    margin-top: 10px;
 }
 .box-1 ul{
     padding-left: 0px;
@@ -266,13 +273,15 @@ form{
 .box-1 ul li a{
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 30px;
 }
 .box-1 ul li a:hover{
     color:blueviolet;
 }
 .box-2 .content{
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 30px;
 }
 .footer_widget_col {
     /* padding: 20px; */

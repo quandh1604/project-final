@@ -96,5 +96,31 @@
       "id": 12
       
     }
+  ],
+  "blog":[
+    {
+      "images":"/Front-end/images/amnhac-1.jpg",
+      "name": "SHOPPER WOOCOMMERCE WORDPRESS THEME WILL HELP YOU SELL",
+      "des": "Today experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice has to inject a fresh outlook and say something unique about your home and you.Art and design have always been related, but today, experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice has to inject a fresh outlook and say something ",
+      "id": 1
+    },
+    {
+      "images":"/Front-end/images/sach-2.jpg",
+      "name": "WITH THIS FREE SHOPPER THEME WE CAN SELL PRODUCT",
+      "des": "Design have always been related, but today, experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice has to inject a fresh outlook and say something unique about your home and you.Art and design have always been related, but today, experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice has to ",
+      "id": 2
+    },
+    {
+      "images":"/Front-end/images/sach-3.jpg",
+      "name": "NEW PRODUCT WILL SELL IF YOUR PRODUCT IS AMAZING",
+      "des": "Art and design have always been related, but today, experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice has to inject a fresh outlook and say something unique about your home and you.Art and design have always been related, but today, experimentation and personal expression are the name of the game. Homeowners are using art to make a personal statement – your art choice",
+      "id": 3
+    },
+    {
+      "images":"/Front-end/images/tainghe-4.jpg",
+      "name": "CREATIVE BLOG POST TO SELL YOUR PRODUCT",
+      "des": "Danish Design is a term often used to describe a style of functionalist design and architecture innovation. Some designs compensate for this problem through the careful leading and typeface creating visual space both UI/UX.Danish Design is a term often used to describe a style of functionalist design and architecture innovation. Some designs compensate for this problem through the careful leading and typeface creating visual space both UI/UX.Danish Design is a",
+      "id": 4
+    }
   ]
 }

@@ -28,6 +28,7 @@ body {
     list-style: none;
     margin: auto;
     text-decoration: none;
+    
 }
 
 .nav__link {
@@ -35,7 +36,7 @@ body {
     color: black;
     margin-right: 38px;
     
-    font-size: 18px;
+    font-size: 16px;
 }
 .nav__bars-btn{
     color: black;
@@ -66,6 +67,7 @@ body {
     opacity: 0;
     transition: tranform linear 0.2s, opacity linear 0.3s;
     text-decoration: none;
+    font-size: 20px;
 }
 .nav__mobile-list{
     margin-top: 24px;
@@ -77,7 +79,7 @@ body {
     color: #333;
     display: block;
     padding: 8px 0;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 .nav__mobile-close{
@@ -152,6 +154,7 @@ body {
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 14px;
   }
   
   .dropdown-content a {

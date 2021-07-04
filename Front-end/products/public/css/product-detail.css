@@ -6,12 +6,6 @@
 body{
     font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
-/* @media screen and (max-width:1920px) {
-    .container {
-        width: 1180px;
-        height: auto;
-    }
-} */
 .header{
     background-color: #fff;
     position: fixed;
@@ -22,7 +16,6 @@ body{
     z-index: 9999;
 }
 .container{
-    width: 1180px;
     margin: 0 auto;
     display: flex;
 }
