@@ -22,7 +22,7 @@ if(params.has("id")) {
                         <i class="fas fa-search"></i>
                     </a>
                 </div>
-                <div class="col-md-6 col-sm-12 des-product" style ="margin-top :20px">
+                <div class="col-md-6 col-sm-12 des-product" style ="pading-top : 20px">
                     <h2 class="product-title">${data.name}</h2>
                     <span class="description__span">
                         <span class="icon-dollar">
@@ -30,7 +30,7 @@ if(params.has("id")) {
                         </span>
                         
                     </span>
-                    <p class="description" style="font-size:17px">
+                    <p class="description" style="font-size:14px">
                         ${data.des}
                     </p>
                     <input type="number" value="1" min="1" max="20">

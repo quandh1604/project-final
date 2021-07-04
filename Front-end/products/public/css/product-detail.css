@@ -211,13 +211,13 @@ form{
     .container{
         display: block !important;
     }
-    
+    .header-menu{display: none;}
 }
 
 @media only screen and (max-width: 767px) {
     .container{
         display: block !important;
-        width: 300px;
+        width: 500px;
         margin: auto;
     }
     .image-product{
@@ -228,12 +228,13 @@ form{
         max-width: 100%;
         margin: auto;
     }
+    .header-menu{display: none;}
    
 }
 @media only screen and (max-width: 576px) { 
     .container{
         display: block !important;
-        width: 300px;
+        width: 380px;
         margin: auto;
     }
     .image-product{
@@ -247,6 +248,7 @@ form{
         max-width: 100%;
         margin: auto;
     }
+    .header-menu{display: none;}
     
 
  }
