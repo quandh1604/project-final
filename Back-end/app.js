@@ -1,6 +1,7 @@
 const products = document.getElementById("products");
 const form = document.getElementById("add-product");
 
+
 form.onsubmit = () => {
     fetch('http://localhost:3000/products',{
         method: 'POST',
@@ -43,7 +44,7 @@ fetch('http://localhost:3000/products')
                         <td>${pro.shortdes}</td>
                         <td>${pro.des}</td>
                         <td>
-                            <button class="${pro.id} btn btn-warning">Update</button>
+                            <button class="btn btn-warning" id="update">Update</button>
                             <button class="btn btn-danger" id="del">Delete</button>
                         </td>
                     </tr>
@@ -51,11 +52,35 @@ fetch('http://localhost:3000/products')
                 </table>
                 `
                 const del = document.getElementById("del").parentElement;
+                // console.log(del);
                 del.onclick = () => {
                   fetch(`http://localhost:3000/products/${pro.id}`,{
-                    method: 'DELETE'
+                    method: "DELETE"
                   })
                 }
+
+                const update = document.getElementById(`${pro.id}`);
+                console.log(update);
+                update.onclick = () => {
+                    console.log("1");
+                    const data = {name : `${form.name.value}`};
+                    fetch(`http://localhost:3000/products/${pro.id}`,{
+                        method:"PUT",
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data),
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Success', data);
+                        })
+                        .catch((error) => {
+                            log.error('Error', error);
+                        })
+                }
+
         }
     }
      )
+    
