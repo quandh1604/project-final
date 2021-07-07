@@ -39,6 +39,9 @@ body{
     .right {
         display: none;
     }
+    .col-md-4{
+        max-width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -59,7 +62,7 @@ body{
         width: 100% !important;
     }
     .col-md-4 {
-        max-width: 100%;
+        max-width: 767px;
     }
     .footer_social{
         padding-left: 2px;
@@ -287,7 +290,7 @@ form{
     margin-right: 20px;
 }
 .email{
-    width: 78%;
+    width: 83%;
     height: 38px;
     float: left;
     opacity: 0.7;
